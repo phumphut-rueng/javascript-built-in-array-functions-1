@@ -7,10 +7,11 @@ const todos = [
 ];
 
 function getTodoTopics(todos) {
-  // Start coding here
+  const topicOnly = todos.map((todo) => todo.topic)
+  return topicOnly
 }
-
 getTodoTopics(todos);
+console.log(getTodoTopics(todos))
 
 /* 
 	Output:
